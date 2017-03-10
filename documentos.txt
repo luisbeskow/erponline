@@ -1,0 +1,11 @@
+gabriel = 0800 038 6011
+
+fontes: 
+Rosewood Std = (letras maiores)
+OCR A Std = (online)
+verdana = (menu)
+
+
+Stencil Std = (MENU SISTEMA)
+
+

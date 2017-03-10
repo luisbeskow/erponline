@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Vendas </title>
+			
+		
+		<link rel="stylesheet" type="text/css" href="system.css"> 
+		
+			
+	</head>
+		
+	<body>
+	
+		<div id="subtopo">
+			
+		</div>
+		
+		<div id="topo">
+	
+		<img src="img/logo.png" alt="sgv online" width="100%">
+	
+		</div>
+		
+		<div id="menu">
+		<nav>
+			<ul>
+				<li> <a href="sistema.html">  <img src="img/inicio.png" width="100%" alt="inicio"> </a> </li>
+				<li> <a href="cliente.html">  <img src="img/cliente.png" width="100%" alt="clientes"> </a> </li>
+				<li> <a href="produto.html">  <img src="img/produto.png" width="100%" alt="produtos"> </a> </li>
+				<li> <a href="fornecedor.html"> <img src="img/fornecedor.png" width="100%" alt="fornecedor"> </a> </li>
+				<li> <a href="operacoes.html">  <img src="img/operacoes.png" width="100%" alt="operações">  </a>
+				
+					<ul>
+						<li> <a href="estoque.html">  <img src="img/estoque.png" width="100%"  alt="estoque"> </a> </li>
+						<li> <a href="venda.html">  <img src="img/venda.png" width="100%"  alt="vendas"> </a> </li>
+						<li> <a href="compra.html"> <img src="img/compras.png" width="100%"  alt="compras"> </a> </li>
+					</ul>
+				
+				</li>
+			</ul> 
+		</nav>
+			
+		
+		</div>
+		
+		<div id="conteudo">
+		
+			<div id="imagem">
+				<img src="img\venda.png" width="100%">
+			</div>
+			
+			<div id="formulario">
+		
+				<form action="?acao=cadastrar" method="post" >
+
+
+			<table id="cad_form" cellpadding="10">			
+				
+                <thead>
+                	
+
+						<tr>
+                        <td colspan="2" id="text_descri">  </td>
+						</tr>
+					<!-- pulando linha --><tr> </tr>
+					<!-- pulando linha --><tr> </tr>
+					<!-- pulando linha --><tr> </tr>
+				</thead>
+				<tbody>
+					
+					<tr>
+					
+						<td> 
+							<label for="codigo">Codigo: </label>
+						</td>
+						
+						<td> 
+							<input type="number" name="codigo" id="codigo">
+						</td>
+						
+					</tr>				
+					
+					
+					<tr>
+						<td> 
+							<label for="cliente"> Cliente: </label>
+						</td>
+						
+						<td>
+							<input type="text" id="cliente" name="cliente">
+						</td>
+						
+						<td> 
+							<label for="produto"> Produto: </label>
+						</td>
+						
+						<td>
+							<input type="text" id="produto" name="produto">
+						</td>
+					
+						
+						
+					</tr>
+						
+					<tr>
+						<td> 
+							<label for="vendido"> Valor Vendido: </label>
+						</td>
+						
+						<td>
+							<input type="text" id="vendido" name="vendido">
+						</td>
+						
+						<td> 
+							<label for="pago"> Valor Pago: </label>
+						</td>
+						
+						<td>
+							<input type="text" id="pago" name="pago">
+						</td>
+						
+					</tr>
+					
+					
+					
+					<tr>
+						<td>
+							<label for="data"> Data da Venda: </label>
+						</td>
+						
+						<td> 
+							<input type="date" name="data" id="data">
+						</td>
+                        				
+					</tr>
+					
+					<tr>
+						<td colspan="4"> 
+							<label for="descrição"> Descri&ccedil;&atilde;o: </label> <br/>
+						
+							<textarea cols="80" rows="5"></textarea>
+							
+							
+						</td>
+                        				
+					</tr>
+					
+								
+					
+					
+				
+					
+					
+					
+				</tbody>
+				
+				<tfoot>
+					<tr>
+						<!-- criando espaço --><td> </td>
+						
+						
+						<td colspan="4"> 
+							<input type="button" value="Cadastrar" class="btn" id="cadastrar" >
+						
+						 
+							<input type="button" value="Consultar" class="btn" id="consultar">
+						
+						
+							<input type="button" value="Excluir" class="btn" id="excluir">
+						
+						
+							<input type="button" value="Alterar" class="btn" id="alterar">
+						
+						</td>
+				
+					</tr>
+				</tfoot>
+			</form>
+			
+	
+			</div>
+			
+		</div>
+		
+		
+		
+	</body>
+		
+</html>

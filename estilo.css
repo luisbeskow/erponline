@@ -1,0 +1,105 @@
+
+*{
+	margin: 0 auto;
+	padding: 0;
+	
+	
+}
+
+body{
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00175b+16,f7edf1+75 */
+	background: #00175b; /* Old browsers */
+	background: -moz-linear-gradient(top,  #00175b 16%, #f7edf1 75%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #00175b 16%,#f7edf1 75%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #00175b 16%,#f7edf1 75%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00175b', endColorstr='#f7edf1',GradientType=0 ); /* IE6-9 */
+
+
+}
+
+#top{
+	width: 100%;
+	height: auto;
+	
+	margin-top: 1%;
+
+}
+
+#menu{
+	width: 90%;
+	height: 80px;
+	
+	margin: 2% auto;
+	
+
+}
+
+#conteudo{
+	width: 90%;
+	height: 600px;
+
+	margin-top: 2%;
+
+}
+
+#bottom{
+	margin-top: 2%;
+	width: 90%;
+	height: 150px;
+
+	clear: both;
+
+}
+
+ul{
+	margin-top: 1%;
+	margin-left: 1%;
+
+}
+
+ul li{
+	list-style: none;
+	float: left;
+	padding: 1% 6%;
+	font-size: 25px;
+	font-weight: bold;
+	color: #fff;
+	font-family: verdana;
+	
+	
+	
+}
+
+
+ul li a:link{
+
+	text-decoration: none;
+	color: #fff;
+
+}
+
+a:hover{
+	text-shadow: 2px 2px 5px #000;
+	text-decoration: none;
+	color: #fff;
+}
+
+a:visited{
+
+	text-decoration: none;
+	color: #fff;
+
+}
+
+a:active{
+	text-decoration: none;
+	color: #fff;
+
+}
+
+#formulario_contato{
+		margin: 5% auto;
+		background-color: red;
+
+}

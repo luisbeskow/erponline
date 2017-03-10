@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Fornecedor </title>
+			
+		<script type="text/javascript" src="form.js"> <!-- quebrei o link pois ainda não estou utilizando o estilo -->
+			
+			
+			
+			
+		</script>
+		
+		<link rel="stylesheet" type="text/css" href="system.css"> 
+		
+			
+	</head>
+		
+	<body>
+	
+		<div id="subtopo">
+			
+		</div>
+		
+		<div id="topo">
+	
+		<img src="img/logo.png" alt="sgv online" width="100%">
+	
+		</div>
+		
+		<div id="menu">
+		<nav>
+			<ul>
+				<li> <a href="sistema.html">  <img src="img/inicio.png" width="100%" alt="inicio"> </a> </li>
+				<li> <a href="clientes.html">  <img src="img/cliente.png" width="100%" alt="clientes"> </a> </li>
+				<li> <a href="produtos.html"> <a href="#"> <img src="img/produto.png" width="100%" alt="produtos"> </a> </li>
+				<li> <a href="fornecedores.html"> <img src="img/fornecedor.png" width="100%" alt="fornecedores"> </a> </li>
+				<li> <a href="operacoes.html"> <a href="#"> <img src="img/operacoes.png" width="100%" alt="operações">  </a>
+				
+					<ul>
+						<li> <a href="estoques.html">  <img src="img/estoque.png" width="100%"  alt="estoque"> </a> </li>
+						<li> <a href="vendas.html">  <img src="img/venda.png" width="100%"  alt="vendas"> </a> </li>
+						<li> <a href="compras.html"> <img src="img/compras.png" width="100%"  alt="compras"> </a> </li>
+					</ul>
+				
+				</li>
+			</ul> 
+		</nav>
+			
+		
+		</div>
+		
+		<div id="conteudo">
+		
+		
+		<!-- a div imagem é apenas a imagem a esquerda do formulário --> 
+			<div id="imagem">
+				<img src="img\fornecedor.png" width="100%">
+			</div>
+		<!-- limite da div imagem, abaixo inicio da div formulário -->
+
+		
+			<div id="formulario">
+		
+		
+			<form action="cadastro_fornecedores.php" method="post" >
+
+
+			<table id="cad_form" cellpadding="10">			
+				
+                <thead>
+                	
+
+						<tr>
+                        <td colspan="2" id="text_descri"> Preencha o formulario de cadastro: </td>
+						</tr>
+					<!-- pulando linha --><tr> </tr>
+					<!-- pulando linha --><tr> </tr>
+					<!-- pulando linha --><tr> </tr>
+				</thead>
+				<tbody>
+					
+					<tr>
+										
+						<td> 
+							<label for="cpf">CNPJ/CPF: </label>
+						</td>
+						
+						<td> 
+							<input type="number" name="cpf" id="cpf">
+						</td>
+						
+					</tr>				
+					
+					
+					<tr>
+						<td> 
+							<label for="nome"> Nome: </label>
+						</td>
+						
+						<td>
+							<input type="text" id="nome" name="nome">
+						</td>
+					
+						<td> 
+							<label for="sobrenome"> Sobrenome: </label>
+						</td>
+						
+						<td>
+							<input type="text" id="sobrenome" name="sobrenome">
+						</td>
+					</tr>
+					
+					
+					
+					<tr>
+						<td> 
+							<label for="email"> E-mail: </label>
+						</td>
+						
+						<td> 
+							<input type="e-mail" name="email" id="email">
+						</td>
+                        
+                       					
+					</tr>
+					
+					
+					<tr>
+						<td> 
+							<label for="telefone"> Telefone: </label>
+						</td>
+						
+						<td>
+							<input type="text" id="ddd_tel" name="ddd_tel" size="1" maxlength="2">
+							<input type="text" size="15" id="tel" name="tel" maxlength="8">
+						</td>
+                        
+                        <td> 
+							<label for="celular"> Celular: </label>
+						</td>
+						
+						<td>
+							<input type="text" id="ddd_cel" name="ddd_cel" size="1" maxlength="2">
+						
+							<input type="text" id="cel" size="15" name="cel" maxlength="9">
+						</td>
+					</tr>
+					
+					
+					<tr>			
+						<td> 
+							<label for="logradouro"> Logradouro: </label>
+						</td>
+						
+						<td colspan="2">
+							<input type="text" id="logra" name="logra" size="45">
+						</td>
+					</tr>
+					
+					<tr>
+					
+						<td>
+							<label for="cid"> Cidade: </label>
+						</td>
+																	
+						<td>
+
+							<input type="text" id="cid" name="cid" >
+						</td>
+						
+						<td>
+							<label for="uf">UF:</label>
+						
+							<select name="uf"> 
+								<option value="ac" class="option">AC</option> 
+								<option value="al" class="option">AL</option> 
+    							<option value="am">AM</option> 
+    							<option value="ap">AP</option> 
+    							<option value="ba">BA</option> 
+    							<option value="ce">CE</option> 
+    							<option value="df">DF</option> 
+    							<option value="es">ES</option> 
+								<option value="go">GO</option> 
+								<option value="ma">MA</option> 
+								<option value="mt">MT</option> 
+    							<option value="ms">MS</option> 
+    							<option value="mg">MG</option> 
+    							<option value="pa">PA</option> 
+    							<option value="pb">PB</option> 
+    							<option value="pr">PR</option> 
+    							<option value="pe">PE</option> 
+    							<option value="pi">PI</option> 
+    							<option value="rj">RJ</option> 
+    							<option value="rn">RN</option> 
+    							<option value="ro">RO</option> 
+    							<option value="rs">RS</option> 
+    							<option value="rr">RR</option> 
+    							<option value="sc">SC</option> 
+    							<option value="se">SE</option> 
+    							<option value="sp">SP</option> 
+    							<option value="to">TO</option> 
+							</select>
+						</td>
+                        
+                        <td>
+							<label for="cep"> CEP: </label>
+				
+							<input type="text" id="cep" size="14" name="cep">
+						</td>
+																	
+					</tr>
+					
+					
+				</tbody>
+				
+				<tfoot>
+					<tr>
+						<!-- criando espaço --><td> </td>
+						
+						
+						<td colspan="4"> 
+							<input type="submit" value="Cadastrar" class="btn" id="cadastrar" >
+						
+						 
+							<a href="consulta_fornecedores.php"><input type="button" value="Consultar" class="btn" id="consultar">
+						
+						
+							<input type="button" value="Excluir" class="btn" id="excluir">
+						
+						
+							<input type="button" value="Alterar" class="btn" id="alterar">
+						
+						</td>
+				
+					</tr>
+				</tfoot>
+			</form>
+	
+			</div>
+			
+		</div>
+		
+		
+		
+	</body>
+		
+</html>
